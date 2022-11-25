@@ -26,7 +26,7 @@ class Home extends Component {
   render() {
     const {teamList, isLoading} = this.state
     return isLoading ? (
-      <div testid="loader">
+      <div>
         <Loader type="Oval" color="#ffffff" height={50} width={50} />
       </div>
     ) : (
